@@ -1,11 +1,12 @@
 package edu.gatech.oad.antlab.person;
+import java.lang.IllegalArgumentException;
 /**
  *  A simple class for person 3
  *  returns their name and a
  *  reversed string 
  *  
- *  @author  Bob
- *  @version 1.1
+ *  @author  Wbaptiste6
+ *  @version 1.0
  */
 public class Person3 {
    /** Holds the persons real name */  
@@ -42,7 +43,14 @@ public class Person3 {
 	 * @return the reversed string
 	 */
 	private String calc(String input) {
-	  //Person 3 put your implementation here
-	  return null;
+		if (input == null) {
+			throw new IllegalArgumentException(
+					"do not pass null data into list");
+		}
+		String reversedString = null;
+		for (int i = (size - 1); i >= 0; i--) {
+			reversedString += input.chartAt(i);
+		}
+	  return reversedString;
 	}
 }
