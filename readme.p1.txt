@@ -1,3 +1,4 @@
 M2
 John Beckner
-jbeckner3@gatech.edu
+jbekcner3@gmail.com
+test
