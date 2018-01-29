@@ -30,8 +30,9 @@ public class Person4 {
      * @return the modified string
      */
     private String calc(String input) {
+        String result = "AHHHHH" + input;
       //Person 4 put your implementation here
-      return null;
+      return result;
     }
     
     /**
