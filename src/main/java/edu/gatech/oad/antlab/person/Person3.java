@@ -48,8 +48,8 @@ public class Person3 {
 					"do not pass null data into list");
 		}
 		String reversedString = null;
-		for (int i = (size - 1); i >= 0; i--) {
-			reversedString += input.chartAt(i);
+		for (int i = (input.length() - 1); i >= 0; i--) {
+			reversedString += input.charAt(i);
 		}
 	  return reversedString;
 	}

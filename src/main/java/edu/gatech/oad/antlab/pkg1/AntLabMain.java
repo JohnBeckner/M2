@@ -85,6 +85,8 @@ import edu.gatech.oad.antlab.pkg2.*;
     
     /**
      * entry point for the program
+     *
+     * @param args adding to javadocs so gradle javadoc will stop yelling at us
      */
      public static void main(String[] args) {
         
